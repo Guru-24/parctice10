@@ -16,3 +16,7 @@ float calculateSD(float data[]) {
     for (i = 0; i < 10; ++i) {
         sum += data[i];
     }
+    mean = sum / 10;
+    for (i = 0; i < 10; ++i) {
+        SD += pow(data[i] - mean, 2);
+    }
