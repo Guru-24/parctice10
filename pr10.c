@@ -10,4 +10,6 @@ int main() {
     printf("\nStandard Deviation = %.6f", calculateSD(data));
     return 0;
 }
-
+float calculateSD(float data[]) {
+    float sum = 0.0, mean, SD = 0.0;
+    int i;
