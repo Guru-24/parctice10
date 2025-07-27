@@ -13,3 +13,6 @@ int main() {
 float calculateSD(float data[]) {
     float sum = 0.0, mean, SD = 0.0;
     int i;
+    for (i = 0; i < 10; ++i) {
+        sum += data[i];
+    }
